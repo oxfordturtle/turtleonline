@@ -43,14 +43,14 @@ const main = (
     </div>
     <p>
       The <i>Turtle System</i> is available as a traditional desktop app for Windows and Mac,
-      downloadable from the button above. No installation is required; simply open the file to run
-      it.
+      downloadable from the button above. No installation is required; simply double-click the
+      file to run it.
     </p>
     <p>
       The first time you run the program, your operating system may warn you that it is of unknown
       origin, and therefore potentially unsafe. On Windows, click ‘More Information’ and then ‘Run
-      Anyway’. On Mac, you may need to right-click on the file and select ‘Open’ from the menu, and
-      then click ‘Open’ in the warning dialog.
+      Anyway’. On Mac, go to System Setting &gt; Privacy &amp; Security, and click ‘Open Anyway’
+      next to the warning about the app.
     </p>
     <h2>Run Online</h2>
     <p>

@@ -24,7 +24,9 @@ const main = (
   <>
     <p>
       <em>
-        Note: versions of these documents for other languages will be available soon (Winter 2023).
+        Note: versions of these documents for other languages are potentially available on request -
+        if you are a teacher who would like to use such documents, please email details of your
+        request to Peter Millican (peter.millican@hertford.ox.ac.uk).
       </em>
     </p>
     <ul>
