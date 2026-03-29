@@ -25,11 +25,13 @@ const header = (
 const main = (
   <>
     <div className="download">
-      <h2>Download for Windows</h2>
+      <h2>Download</h2>
       <select id="version-select">
-        <option value="14">v14</option>
         <option value="15" selected>
-          v15
+          v15 (Windows)
+        </option>
+        <option value="M20">
+          vM20 (MacOS)
         </option>
       </select>
       <a href="/download/15" className="button" id="download-link">
@@ -40,18 +42,17 @@ const main = (
       </a>
     </div>
     <p>
-      The <i>Turtle System</i> is available as a traditional desktop app for Windows, downloadable
-      from the button above. No installation is required; simply double-click the file to run it.
-      The first time you run the program, Windows may warn you that it is of unknown origin, and
-      therefore potentially unsafe. To run it, click ‘More Information’ and then ‘Run Anyway’.
+      The <i>Turtle System</i> is available as a traditional desktop app for Windows and Mac,
+      downloadable from the button above. No installation is required; simply open the file to run
+      it.
     </p>
     <p>
-      Version 15, which includes Turtle Python, is significantly more powerful than earlier
-      versions, but currently (Autumn 2023) at a "beta" stage of development, and undergoing
-      thorough testing. For this reason, version 14 (which includes Turtle BASIC and Turtle Pascal,
-      but not Turtle Python) remains available.
+      The first time you run the program, your operating system may warn you that it is of unknown
+      origin, and therefore potentially unsafe. On Windows, click ‘More Information’ and then ‘Run
+      Anyway’. On Mac, you may need to right-click on the file and select ‘Open’ from the menu, and
+      then click ‘Open’ in the warning dialog.
     </p>
-    <h2>Run Online and on other Platforms</h2>
+    <h2>Run Online</h2>
     <p>
       The <i>Turtle System</i> is also available as a progressive web app, which can be run directly
       in your browser (click on <a href="/run">Run</a> in the main site menu), and installed for
